@@ -14,6 +14,7 @@
 		7CAAE8151E65E0BB007EAF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAAE8131E65E0BB007EAF13 /* LaunchScreen.storyboard */; };
 		7CAAE8201E65E0BC007EAF13 /* simple_calculator_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAAE81F1E65E0BC007EAF13 /* simple_calculator_swiftTests.swift */; };
 		7CAAE82B1E65E0BC007EAF13 /* simple_calculator_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAAE82A1E65E0BC007EAF13 /* simple_calculator_swiftUITests.swift */; };
+		7CAAE8391E65F3A5007EAF13 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7CAAE8381E65F3A5007EAF13 /* click.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7CAAE8261E65E0BC007EAF13 /* simple-calculator-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calculator-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAAE82A1E65E0BC007EAF13 /* simple_calculator_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calculator_swiftUITests.swift; sourceTree = "<group>"; };
 		7CAAE82C1E65E0BC007EAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAAE8381E65F3A5007EAF13 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		7CAAE8091E65E0BB007EAF13 /* simple-calculator-swift */ = {
 			isa = PBXGroup;
 			children = (
+				7CAAE8381E65F3A5007EAF13 /* click.mp3 */,
 				7CAAE80A1E65E0BB007EAF13 /* AppDelegate.swift */,
 				7CAAE80C1E65E0BB007EAF13 /* ViewController.swift */,
 				7CAAE80E1E65E0BB007EAF13 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CAAE8151E65E0BB007EAF13 /* LaunchScreen.storyboard in Resources */,
+				7CAAE8391E65F3A5007EAF13 /* click.mp3 in Resources */,
 				7CAAE8121E65E0BB007EAF13 /* Assets.xcassets in Resources */,
 				7CAAE8101E65E0BB007EAF13 /* Main.storyboard in Resources */,
 			);
@@ -505,6 +509,7 @@
 				7CAAE8311E65E0BC007EAF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CAAE8321E65E0BC007EAF13 /* Build configuration list for PBXNativeTarget "simple-calculator-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				7CAAE8341E65E0BC007EAF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CAAE8351E65E0BC007EAF13 /* Build configuration list for PBXNativeTarget "simple-calculator-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				7CAAE8371E65E0BC007EAF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
